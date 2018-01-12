@@ -5,7 +5,7 @@
     }, 
     "dependencies": {
         "express": "~4.16.2", 
-        "iotdb-helpers": "~3.1.27"
+        "iotdb-helpers": "~3.1.29"
     }, 
     "description": "POP functions for dealing with Express", 
     "devDependencies": {
@@ -31,5 +31,5 @@
     "scripts": {
         "test": "grunt"
     }, 
-    "version": "1.0.8"
+    "version": "1.0.9"
 }
