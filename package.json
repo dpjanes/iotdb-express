@@ -6,7 +6,7 @@
     "dependencies": {
         "express": "~4.17.1", 
         "iotdb-errors": "~3.1.9", 
-        "iotdb-helpers": "~3.5.1"
+        "iotdb-helpers": "~3.5.2"
     }, 
     "description": "POP Express Functions", 
     "homepage": "https://github.com/dpjanes/node-iotdb", 
@@ -19,7 +19,8 @@
         "url": "https://github.com/dpjanes/iotdb-express"
     }, 
     "scripts": {
-        "test": "grunt"
+        "cover": "nyc --reporter=html mocha --recursive", 
+        "test": "mocha --recursive --bail"
     }, 
-    "version": "1.0.25"
+    "version": "1.1.0"
 }
